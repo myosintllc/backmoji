@@ -71,6 +71,7 @@ Example URL: `https://images.bitmoji.com/3d/avatar/201714142-99792039934_3-s5-v1
             const t = document.createTextNode('Version: '+i);
             x.setAttribute("href", imgFront.src);
             x.setAttribute('target', '_blank');
+            x.setAttribute('class', 'version');
             x.appendChild(t);
             container.appendChild(x);
 

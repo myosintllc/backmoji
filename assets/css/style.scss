@@ -5,6 +5,11 @@
 .avatar {
     width: 300px;
     display: inline-block;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 img {
   width: auto;
@@ -12,12 +17,15 @@ img {
 input {
   text-align: right;
 }
+.version {
+  color: #000;
+  font-weight: bold;
+}
 table {
   width: auto;
 }
 .centered {
   text-align: center;
-  color: #ddd;
 }
 
 /* Tooltip container */
