@@ -17,6 +17,7 @@ table {
 }
 .centered {
   text-align: center;
+  color: #ddd;
 }
 
 /* Tooltip container */
@@ -30,7 +31,7 @@ table {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: gray;
   color: #b5e853;
   text-align: center;
   padding: 5px 0;
